@@ -1,0 +1,136 @@
+html,body, *{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border-radius: 40px;
+    background-color: #000000 ;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    padding: 20px 40px;
+    display: block;
+    margin-top: 40px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid;
+    border-color: #000000;
+    transition: 300ms;
+}
+h1,h3,p{
+    color: #333333;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 64px;
+    font-weight: 500;
+    color: #ffffff;
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+    font-weight: 500;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carrehaut{
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.texte_du_haut{
+    margin-left: 40px;
+}
+.carrebas{
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+
+.carre1{
+    background-color: #f1c2b0;
+    border-radius:16px;
+    width: 25%;
+}
+.carre1:hover{
+    background-color: #ffffff;
+    border:2px solid #f1c2b0;
+    transition: 400ms;
+}
+.carre2{
+    background-color: #f9eb98;
+    border-radius:16px;
+    width: 25%;
+}
+.carre2:hover{
+    background-color: #ffffff;
+    border:2px solid #f9eb98;
+    transition: 400ms;
+}
+.carre3{
+    background-color: #c0d9dd;
+    border-radius:16px;
+    width: 25%;
+}
+.carre3:hover{
+    background-color: #ffffff;
+    border:2px solid #c0d9dd;
+    transition: 400ms;
+}
+.carre4{
+    background-color: #6975e8;
+    border-radius:16px;
+    width: 25%;
+}
+.carre4:hover{
+    background-color: #ffffff;
+    border:2px solid #6975e8;
+    transition: 400ms;
+}
+img{
+    height:450px
+}
+.carre1,.carre2,.carre3,.carre4{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-bottom:40px;
+    padding-top: 10px;
+}
+.le1:hover:hover{
+    color: #f1c2b0;
+    transition: 400ms;
+}
+.le2:hover{
+    color: #f9eb98;
+    transition: 400ms;
+}
+.le3:hover{
+    color: #c0d9dd;
+    transition: 400ms;
+}
+.le4:hover{
+    color: #6975e8;
+    transition: 400ms;
+}
